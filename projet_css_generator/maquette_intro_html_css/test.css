@@ -1,0 +1,263 @@
+@font-face {
+    src: url(font/droid-sans/), url(font/droid-serif/), url(font/Oswald/);
+    font-family: "Oswald", "Droid sans", "Droid sherif", sans-serif;
+  }
+  
+  p {
+      font-family: "Oswald", "Droid sans", "Droid sherif", sans-serif;
+  }
+  
+  h2 {
+      color: rgb(218, 132, 21);
+      font-family: "Oswald", "Droid sans", "Droid sherif", sans-serif;
+    }  
+  
+  h3 {
+      font-family: "Oswald", "Droid sans", "Droid sherif", sans-serif;
+      font-size: 15px;
+      color: rgba(128, 128, 128, 0.788);
+  }
+  
+  header {
+    background-image: url(assets/misc/grille.png);
+    height: 150px;
+  }
+  
+  .navig {
+    float: right;
+    display: flex;
+    position: relative;
+    align-content: center;
+    margin-right: 15%;
+  }
+  
+  #logo {
+    image-resolution: initial;
+    margin-left: 15%;
+  }
+  
+  li {
+    list-style-type: none;
+    font-family: "Oswald", "Droid sans", "Droid sherif", sans-serif;
+  }
+  
+  a {
+    text-decoration: none;
+    font-family: "Oswald", "Droid sans", "Droid sherif", sans-serif;
+  }
+  
+  #hotel {
+    border-bottom: 5px solid;
+    list-style: none;
+    padding-bottom: 10px;
+    border-color: #f76900;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  #restaurants {
+    border-bottom: 5px solid;
+    list-style: none;
+    padding-bottom: 10px;
+    border-color: #eef117;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  #services {
+    border-bottom: 5px solid;
+    list-style: none;
+    padding-bottom: 10px;
+    border-color: #2d972a;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  #activites {
+    border-bottom: 5px solid;
+    list-style: none;
+    padding-bottom: 10px;
+    border-color: #2b51ce;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  #plus {
+    border-bottom: 5px solid;
+    list-style: none;
+    padding-bottom: 10px;
+    border-color: #c730cc;
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  
+  object {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 650px;
+    height: 400px;
+    padding: 25px;
+  }
+  
+  .space {
+    border-bottom: solid 0.5px rgb(161, 159, 159);
+  }
+  
+  .slogan {
+    background-image: url(assets/misc/grille.png);
+    height: 75px;
+  }
+  
+  #id_slogan {
+    text-align: center;
+    padding: 20px;
+    color: gray;
+    font-size: 17px;
+  }
+  
+  .article {
+    margin-left: 15%;
+    margin-right: 10%;
+    padding-top: 50px;
+    height: 500px;
+  }
+  
+  .golf {
+    position: relative;
+    align-content: center;
+    border: 1px solid rgb(32, 32, 32);
+    height: 375px;
+    border-width: 1px 1px;
+    width: 245px;
+    padding-left: 10px;
+    padding-bottom: 25px;
+  }
+  
+  .balls {
+    width: 225px;
+    height: 155px;
+  }
+  
+  .accrobranche {
+    float: left;
+    margin-top: -405px;
+    margin-left: 290px;
+    height: 375px;
+    width: 230px;
+  }
+  
+  .fast-foods {
+    float: left;
+    margin-top: -175px;
+    margin-left: 290px;
+    height: 375px;
+    width: 240px;
+  }
+  
+  .comment {
+    float: left;
+    margin-top: -405px;
+    margin-left: 80px;
+    height: 375px;
+    width: 500px;
+  }
+  
+  .img_comment {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 15px;
+    grid-row-gap: 15px;
+    float: left;
+    margin-top: -210px;
+    margin-left: 80px;
+  }
+  .imgs {
+    height: 80px;
+    width: 140px;
+    border: 1px solid rgb(150, 148, 148);
+    padding: 8px;
+  }
+  
+  .back_footer {
+    background-image: url(assets/misc/grille.png);
+    height: 270px;
+  }
+  
+  .footer {
+    margin-right: 15%;
+    margin-left: 15%;
+    margin-top: 55px;
+    color: gray;
+  }
+  
+  .contact p {
+    padding-left: 25px;
+  }
+  
+  .adresse {
+    background-image: url(assets/misc/accueil_icone.png);
+    background-repeat: no-repeat;
+  }
+  
+  .tel {
+    background-image: url(assets/misc/telephone_icone.png);
+    background-repeat: no-repeat;
+  }
+  
+  .email {
+    background-image: url(assets/misc/mail_icone.png);
+    background-repeat: no-repeat;
+  }
+  
+  .support {
+    background-image: url(assets/misc/aide_icone.png);
+    background-repeat: no-repeat;
+  }
+  
+  .contact {
+    width: 240px;
+  }
+  
+  .billet {
+    width: 240px;
+    float: left;
+    margin-top: -205px;
+    margin-left: 275px;
+  }
+  
+  .last_comment {
+    float: left;
+    width: 240px;
+    margin-top: -205px;
+    margin-left: 75px;
+  }
+  
+  .blablaland {
+    float: left;
+    width: 240px;
+    margin-top: -220px;
+    margin-left: 900px;
+  }
+  
+  .date {
+      color: rgba(128, 128, 128, 0.623);
+      font-style: italic;
+      font-size: 15px;
+  }
+  
+  .end_footer {
+    padding-top: 20px;
+    margin-right: 15%;
+    margin-left: 15%;
+    height: 50px;
+  }
+  .reseaux {
+    float: left;
+    width: 240px;
+    margin-left: 800px;
+    margin-top: -60px;
+  }
+  
+  
